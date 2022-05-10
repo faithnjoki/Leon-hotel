@@ -12,3 +12,11 @@ function getinputval(){
 
     alert (sumation)
 }
+function Person(first,last,favcolor,country){
+    this.firstname = first;
+    this.lastname = last;
+    this.favouritecolor = favcolor;
+    this.countryofbirth = country;
+
+}
+const paul = new Person ('paul','ndemo','blue','kenya');
